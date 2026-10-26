@@ -186,6 +186,16 @@ a.chip:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
+
+/* Rail layout: neutral section body, coloured left rule on commented articles */
+.box{background:var(--card);border:1px solid var(--line)}
+.box .inner{gap:22px}
+.art{background:transparent;border-radius:0;border-left:4px solid var(--head);padding:32px 0 2px 18px}
+.box .inner > .art{margin-top:0}
+.impact{top:0;right:0;box-shadow:none}
+.findings{border-left:0;padding:0}
+.tbl{border:1px solid var(--line);border-radius:10px}
+@media (max-width:520px){.art{padding:32px 0 2px 14px}}
 </style>
 </head>
 <body>
