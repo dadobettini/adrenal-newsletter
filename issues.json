@@ -4,5 +4,11 @@
   "type": "monthly",
   "label": "September 2026",
   "date": "2026-09-30"
+ },
+ {
+  "id": "2026-10",
+  "type": "monthly",
+  "label": "October 2026",
+  "date": "2026-10-31"
  }
 ]
